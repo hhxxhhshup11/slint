@@ -49,8 +49,9 @@ export component LineEdit uses { LineEditInterface from base } {
                 font-weight: FluentFontSettings.body.font-weight;
                 selection-background-color: FluentPalette.selection-background;
                 selection-foreground-color: FluentPalette.accent-foreground;
-                text-color: FluentPalette.foreground;
+                text-color: root.color;
                 placeholder-color: FluentPalette.text-secondary;
+
                 margin: layout.padding-left + layout.padding-right;
                 horizontal-stretch: 1;
             }
